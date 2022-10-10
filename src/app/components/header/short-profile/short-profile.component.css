@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  justify-content: space-between;
+}
+
+.wrapper > p {
+  margin: 0 auto;
+}

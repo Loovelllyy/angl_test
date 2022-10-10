@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <div *ngFor="let card of cards" class="card-wrapper">
+      <img src="{{card.url}}" height="50px">
+      <p>{{card.title | slice:0:10 }}</p>
+      <p>{{card.id | currency}}</p>
+  </div>
+
+</div>

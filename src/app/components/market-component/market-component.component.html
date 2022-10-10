@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div class="flex"[ngStyle]="{'flex-direction': 'column'}">
+    <div class="flex">
+      <p>Market Overview</p>
+      <p>5.553245</p>
+    </div>
+    <div *ngFor="let card of cards" class="flex">
+      <img src="{{card.url}}" width="500px" height="400px">
+      <img src="{{card.url}}" height="400px" width="500px">
+    </div>
+  </div>
+</div>
