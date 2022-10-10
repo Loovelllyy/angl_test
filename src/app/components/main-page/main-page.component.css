@@ -1,6 +1,7 @@
 .wrapper {
   height: 100%;
   display: flex;
+  padding: 0 10px 0 10px;
 }
 
 .menu {
